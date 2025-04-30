@@ -1,35 +1,35 @@
 -- stylua: ignore
 return {
   a = {
-    bg      = "#0A1008", -- Background color for the editor
-    float   = "#102013", -- Background for floating windows
-    sel     = "#1A3018", -- Background for selected text
-    ui      = "#4A6B4A", -- UI elements like borders and separators
-    com     = "#5A9662", -- Comments in the code
-    fg      = "#00FF00", -- Default foreground text color
+    bg      = "#0A1008", -- Very dark green-black
+    float   = "#102013", -- Slightly lighter dark green
+    sel     = "#1A3018", -- Dark green selection
+    ui      = "#4A6B4A", -- Muted green UI elements
+    com     = "#5A9662", -- Medium green for comments
+    fg      = "#00FF00", -- Bright neon green - classic Matrix
   },
   b = {
-    red     = "#FF7070", -- Operators like =, +, -
-    yellow  = "#FFD700", -- Keywords and control flow (if, else, for)
-    green   = "#00FF00", -- Strings and constants
-    cyan    = "#66D9EF", -- Function names and calls
-    blue    = "#5FAFFF", -- Variables and identifiers
-    magenta = "#FF99CC", -- Special elements like tags or decorators
+    red     = "#00FF66", -- Brighter green for operators (=)
+    yellow  = "#6CFF6C", -- Light green instead of yellow
+    green   = "#00FF00", -- Matrix neon green
+    cyan    = "#52FF9A", -- Green-cyan
+    blue    = "#26C95B", -- Green-blue
+    magenta = "#8AE234", -- Lime green instead of magenta
   },
   c = {
-    red     = "#CC6060", -- Muted red for less prominent operators
-    yellow  = "#E6C200", -- Muted yellow for secondary keywords
-    green   = "#78FF78", -- Muted green for secondary strings
-    cyan    = "#4FB0C6", -- Muted cyan for secondary functions
-    blue    = "#4D9AD7", -- Muted blue for secondary variables
-    magenta = "#D88FB5", -- Muted magenta for secondary special elements
+    red     = "#0FD75F", -- Medium bright green
+    yellow  = "#25A035", -- Dark green
+    green   = "#78FF78", -- Lighter green
+    cyan    = "#54B378", -- Muted green-cyan
+    blue    = "#3D9A57", -- Dark muted green
+    magenta = "#72C890", -- Pale green
   },
   d = {
-    red     = "#4F1F1F", -- Very dark red for subtle highlights
-    yellow  = "#4F3A10", -- Very dark yellow for subtle highlights
-    green   = "#041A0C", -- Very dark green for subtle highlights
-    cyan    = "#1A3A4A", -- Very dark cyan for subtle highlights
-    blue    = "#1A2F4A", -- Very dark blue for subtle highlights
-    magenta = "#3A1F2F", -- Very dark magenta for subtle highlights
+    red     = "#0B3315", -- Very dark green
+    yellow  = "#2AC038", -- Brighter green for delimiters ({}())
+    green   = "#041A0C", -- Nearly black green
+    cyan    = "#0D2D1A", -- Very dark green-cyan
+    blue    = "#0F2316", -- Very dark blue-green
+    magenta = "#1E3923", -- Dark emerald green
   },
 }
