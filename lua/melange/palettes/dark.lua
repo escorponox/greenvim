@@ -9,7 +9,7 @@ return {
     fg      = "#00FF00", -- Bright neon green - classic Matrix
   },
   b = {
-    red     = "#00CC66", -- Replaced with bright green
+    red     = "#00FF66", -- Brighter green for operators (=)
     yellow  = "#6CFF6C", -- Light green instead of yellow
     green   = "#00FF00", -- Matrix neon green
     cyan    = "#52FF9A", -- Green-cyan
@@ -26,7 +26,7 @@ return {
   },
   d = {
     red     = "#0B3315", -- Very dark green
-    yellow  = "#143C18", -- Dark forest green
+    yellow  = "#2AC038", -- Brighter green for delimiters ({}())
     green   = "#041A0C", -- Nearly black green
     cyan    = "#0D2D1A", -- Very dark green-cyan
     blue    = "#0F2316", -- Very dark blue-green
