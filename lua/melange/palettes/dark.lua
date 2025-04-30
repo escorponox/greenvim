@@ -1,35 +1,35 @@
 -- stylua: ignore
 return {
   a = {
-    bg      = "#292522",
-    float   = "#34302C",
-    sel     = "#403A36",
-    ui      = "#867462",
-    com     = "#C1A78E",
-    fg      = "#ECE1D7",
+    bg      = "#0A1008", -- Very dark green-black
+    float   = "#102013", -- Slightly lighter dark green
+    sel     = "#1A3018", -- Dark green selection
+    ui      = "#4A6B4A", -- Muted green UI elements
+    com     = "#5A9662", -- Medium green for comments
+    fg      = "#00FF00", -- Bright neon green - classic Matrix
   },
   b = {
-    red     = "#D47766",
-    yellow  = "#EBC06D",
-    green   = "#85B695",
-    cyan    = "#89B3B6",
-    blue    = "#A3A9CE",
-    magenta = "#CF9BC2",
+    red     = "#00CC66", -- Replaced with bright green
+    yellow  = "#6CFF6C", -- Light green instead of yellow
+    green   = "#00FF00", -- Matrix neon green
+    cyan    = "#52FF9A", -- Green-cyan
+    blue    = "#26C95B", -- Green-blue
+    magenta = "#8AE234", -- Lime green instead of magenta
   },
   c = {
-    red     = "#BD8183",
-    yellow  = "#E49B5D",
-    green   = "#78997A",
-    cyan    = "#7B9695",
-    blue    = "#7F91B2",
-    magenta = "#B380B0",
+    red     = "#0FD75F", -- Medium bright green
+    yellow  = "#25A035", -- Dark green
+    green   = "#78FF78", -- Lighter green
+    cyan    = "#54B378", -- Muted green-cyan
+    blue    = "#3D9A57", -- Dark muted green
+    magenta = "#72C890", -- Pale green
   },
   d = {
-    red     = "#7D2A2F",
-    yellow  = "#8B7449",
-    green   = "#233524",
-    cyan    = "#253333",
-    blue    = "#273142",
-    magenta = "#422741",
+    red     = "#0B3315", -- Very dark green
+    yellow  = "#143C18", -- Dark forest green
+    green   = "#041A0C", -- Nearly black green
+    cyan    = "#0D2D1A", -- Very dark green-cyan
+    blue    = "#0F2316", -- Very dark blue-green
+    magenta = "#1E3923", -- Dark emerald green
   },
 }
