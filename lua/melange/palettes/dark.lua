@@ -6,11 +6,11 @@ return {
     sel     = "#1A3018", -- Dark green selection
     ui      = "#6ccba0", -- Muted green UI elements
     com     = "#5A9662", -- Medium green for comments
-    fg      = "#8ff6ff", -- vars, object keys
+    fg      = "#00ff00", -- vars, object keys
   },
   b = {
     red     = "#E8E75C", -- = ...  => <>
-    yellow  = "#aaffaa", -- functions, ts types basic, functions, clases, react components, ?
+    yellow  = "#8ff6ff", -- functions, ts types basic, functions, clases, react components, ?
     green   = "#00FF00", -- export import from
     cyan    = "#52FF9A", -- component props
     blue    = "#3aa5ff", -- strings
