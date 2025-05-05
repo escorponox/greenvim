@@ -9,7 +9,7 @@ return {
     fg      = "#00FF00", -- Bright neon green - classic Matrix
   },
   b = {
-    red     = "#ba4571", -- = ...  => <>
+    red     = "#E8E75C", -- = ...  => <>
     yellow  = "#aaffaa", -- functions, ts types basic, functions, clases, react components, ?
     green   = "#00FF00", -- export import from
     cyan    = "#52FF9A", -- component props

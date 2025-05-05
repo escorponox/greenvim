@@ -1,6 +1,7 @@
-![melange-logo](logo.svg)
+This is a fork of Melange, with changes to the dark variant to make it like the Cobalt Neon theme. The light variant is unchanged.
 
 ## Features
+
 - Dark and light variants
 - Special support for various plugins, including:
   - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
@@ -22,41 +23,45 @@
   - [iTerm2](https://github.com/gnachman/iTerm2)
   - [Zellij](https://github.com/zellij-org/zellij)
 
-
 ## Requirements
-* Neovim ≥ 0.9.2
-* `termguicolors` enabled
-* A terminal emulator or GUI with true color and font variants support (italics, bold, etc).
 
+- Neovim ≥ 0.9.2
+- `termguicolors` enabled
+- A terminal emulator or GUI with true color and font variants support (italics, bold, etc).
 
 ## Installation
+
 You can install Melange with any (Neo)Vim plugin manager.
 
 [Paq](https://github.com/savq/paq-nvim):
+
 ```lua
 "savq/melange-nvim";
 ```
 
 [Lazy](https://github.com/folke/lazy.nvim):
+
 ```
 { "savq/melange-nvim" }
 ```
-
 
 Additionally, [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 can be used to install tree-sitter parsers.
 
 ## Usage
+
 Enable [`termguicolors`](https://neovim.io/doc/user/options.html#'termguicolors')
 and load the [`colorscheme`](https://neovim.io/doc/user/syntax.html#%3Acolorscheme).
 
 In your `init.lua`:
+
 ```lua
 vim.opt.termguicolors = true
 vim.cmd.colorscheme 'melange'
 ```
 
 Or in your `init.vim`:
+
 ```vim
 set termguicolors
 colorscheme melange
@@ -65,8 +70,8 @@ colorscheme melange
 To enable the light variant, set the [`background`](https://neovim.io/doc/user/options.html#'background')
 (or let your terminal do it for you) before setting the colorscheme.
 
-
 ## Design
+
 Melange was designed with one idea in mind: _Control flow_ should use warm colors and _data_ should use cold colors;
 It was originally developed using [Lush.nvim](https://github.com/rktjmp/lush.nvim);
 and it's been inspired by many colorschemes, in particular Ayu and Gruvbox.
