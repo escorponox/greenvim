@@ -6,7 +6,7 @@ return {
     sel     = "#1A3018", -- Dark green selection
     ui      = "#6ccba0", -- Muted green UI elements
     com     = "#5A9662", -- Medium green for comments
-    fg      = "#00FF00", -- Bright neon green - classic Matrix
+    fg      = "#8ff6ff", -- vars, object keys
   },
   b = {
     red     = "#E8E75C", -- = ...  => <>
