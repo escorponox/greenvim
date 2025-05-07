@@ -1,9 +1,9 @@
 -- stylua: ignore
 return {
   a = {
-    bg      = "#0088AA", -- Classic NC blue/cyan background
+    bg      = "#0000ff", -- Classic NC blue/cyan background
     float   = "#0066AA", -- Slightly darker blue for floating elements
-    sel     = "#000088", -- Dark blue selection background (like NC selected items)
+    sel     = "#0088AA", -- Dark blue selection background (like NC selected items)
     ui      = "#55FFFF", -- Bright cyan for UI elements (like NC borders)
     com     = "#AAFFFF", -- Light cyan for comments
     fg      = "#FFFF55", -- Bright yellow for text (like NC file names)
@@ -18,7 +18,7 @@ return {
   },
   c = {
     red     = "#FFFFFF", -- White for punctuation
-    yellow  = "#FFFF77", -- Yellow variant for keywords
+    yellow  = "#CCCC00", -- Yellow variant for keywords
     green   = "#55FF55", -- Green for React, gitsigns
     cyan    = "#77DDDD", -- Medium cyan for custom types
     blue    = "#77AAFF", -- Medium blue accent
