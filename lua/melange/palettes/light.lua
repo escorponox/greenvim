@@ -1,35 +1,35 @@
 -- stylua: ignore
 return {
   a = {
-    bg      = "#F1F1F1",
-    float   = "#E9E1DB",
-    sel     = "#D9D3CE",
-    ui      = "#A98A78",
-    com     = "#7D6658",
-    fg      = "#54433A",
+    bg      = "#0088AA", -- Classic NC blue/cyan background
+    float   = "#0066AA", -- Slightly darker blue for floating elements
+    sel     = "#000088", -- Dark blue selection background (like NC selected items)
+    ui      = "#55FFFF", -- Bright cyan for UI elements (like NC borders)
+    com     = "#AAFFFF", -- Light cyan for comments
+    fg      = "#FFFF55", -- Bright yellow for text (like NC file names)
   },
   b = {
-    red     = "#BF0021",
-    yellow  = "#A06D00",
-    green   = "#3A684A",
-    cyan    = "#3D6568",
-    blue    = "#465AA4",
-    magenta = "#904180",
+    red     = "#FFFFFF", -- White for operators (=, =>, <>)
+    yellow  = "#FFFF00", -- Pure yellow for functions, types, etc.
+    green   = "#55FF55", -- Bright green for keywords
+    cyan    = "#00FFFF", -- Bright cyan for component props
+    blue    = "#AAAAFF", -- Light blue for strings
+    magenta = "#FF55FF", -- Pink for numbers, booleans
   },
   c = {
-    red     = "#C77B8B",
-    yellow  = "#BC5C00",
-    green   = "#6E9B72",
-    cyan    = "#739797",
-    blue    = "#7892BD",
-    magenta = "#BE79BB",
+    red     = "#FFFFFF", -- White for punctuation
+    yellow  = "#FFFF77", -- Yellow variant for keywords
+    green   = "#55FF55", -- Green for React, gitsigns
+    cyan    = "#77DDDD", -- Medium cyan for custom types
+    blue    = "#77AAFF", -- Medium blue accent
+    magenta = "#FF77FF", -- Light magenta for null, undefined
   },
   d = {
-    red     = "#F1DEDF",
-    yellow  = "#CCA478",
-    green   = "#D0E9D1",
-    cyan    = "#CDE8E7",
-    blue    = "#E0E2E8",
-    magenta = "#E8E0E8",
+    red     = "#005577", -- Darker blue-cyan variation
+    yellow  = "#FFFFFF", -- White for delimiters
+    green   = "#006688", -- Dark cyan background variation
+    cyan    = "#007799", -- Dark teal background variation
+    blue    = "#0055AA", -- Dark blue background variation
+    magenta = "#004488", -- Dark blue-purple background variation
   },
 }
