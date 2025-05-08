@@ -6,19 +6,19 @@ return {
     sel     = "#0088AA", -- Dark blue selection background (like NC selected items)
     ui      = "#55FFFF", -- Bright cyan for UI elements (like NC borders)
     com     = "#AAFFFF", -- Light cyan for comments
-    fg      = "#FFFF55", -- Bright yellow for text (like NC file names)
+    fg      = "#00ffff", -- Bright yellow for text (like NC file names)
   },
   b = {
     red     = "#FFFFFF", -- White for operators (=, =>, <>)
     yellow  = "#FFFF00", -- Pure yellow for functions, types, etc.
     green   = "#55FF55", -- Bright green for keywords
-    cyan    = "#00FFFF", -- Bright cyan for component props
-    blue    = "#AAAAFF", -- Light blue for strings
+    cyan    = "#ffff55", -- Bright cyan for component props
+    blue    = "#FF55FF", -- Light blue for strings
     magenta = "#FF55FF", -- Pink for numbers, booleans
   },
   c = {
     red     = "#FFFFFF", -- White for punctuation
-    yellow  = "#CCCC00", -- Yellow variant for keywords
+    yellow  = "#DDDD00", -- Yellow variant for keywords
     green   = "#55FF55", -- Green for React, gitsigns
     cyan    = "#77DDDD", -- Medium cyan for custom types
     blue    = "#77AAFF", -- Medium blue accent
