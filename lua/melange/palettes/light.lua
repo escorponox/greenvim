@@ -1,7 +1,7 @@
 -- stylua: ignore
 return {
   a = {
-    bg      = "#0000ff", -- Classic NC blue/cyan background
+    bg      = "#0000CC", -- Classic NC blue/cyan background
     float   = "#0066AA", -- Slightly darker blue for floating elements
     sel     = "#0088AA", -- Dark blue selection background (like NC selected items)
     ui      = "#55FFFF", -- Bright cyan for UI elements (like NC borders)
@@ -9,7 +9,7 @@ return {
     fg      = "#AAffff", -- Bright yellow for text (like NC file names)
   },
   b = {
-    red     = "#FFFFFF", -- White for operators (=, =>, <>)
+    red     = "#a9aaaa", -- White for operators (=, =>, <>)
     yellow  = "#FFFF00", -- Pure yellow for functions, types, etc.
     green   = "#55FF55", -- Bright green for keywords
     cyan    = "#ffff55", -- Bright cyan for component props
@@ -26,7 +26,7 @@ return {
   },
   d = {
     red     = "#005577", -- Darker blue-cyan variation
-    yellow  = "#FFFFFF", -- White for delimiters
+    yellow  = "#a9aaaa", -- White for delimiters
     green   = "#006688", -- Dark cyan background variation
     cyan    = "#007799", -- Dark teal background variation
     blue    = "#0055AA", -- Dark blue background variation
