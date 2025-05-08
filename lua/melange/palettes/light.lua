@@ -5,8 +5,8 @@ return {
     float   = "#0066AA", -- Slightly darker blue for floating elements
     sel     = "#0088AA", -- Dark blue selection background (like NC selected items)
     ui      = "#55FFFF", -- Bright cyan for UI elements (like NC borders)
-    com     = "#AAFFFF", -- Light cyan for comments
-    fg      = "#00ffff", -- Bright yellow for text (like NC file names)
+    com     = "#00FFFF", -- Light cyan for comments
+    fg      = "#AAffff", -- Bright yellow for text (like NC file names)
   },
   b = {
     red     = "#FFFFFF", -- White for operators (=, =>, <>)
