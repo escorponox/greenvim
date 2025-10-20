@@ -35,41 +35,42 @@ local blue =  {
 }
 
 -- stylua: ignore
-local savecomments = {
+local whitegpt = {
   a = {
-    bg      = "#0000CC", -- background
-    float   = "#0066AA", -- float
-    sel     = "#0088AA", -- selection
-    ui      = "#55FFFF", -- borders, UI elements
-    com     = "#00FFFF", -- comments
-    fg      = "#AAffff", -- vars, object keys
+    bg      = "#F7F7F2", -- background (slightly brighter)
+    float   = "#EDEDE8", -- float
+    sel     = "#DADAD2", -- selection (a bit darker for clarity)
+    ui      = "#BEBEB6", -- borders/UI
+    com     = "#7C7C74", -- comments (neutral gray)
+    fg      = "#232321", -- text/fg
   },
   b = {
-    red     = "#a9aaaa", -- = ...  => <>
-    yellow  = "#FFFF00", -- functions, ts types basic, functions, clases, react components, ?
-    green   = "#55FF55", -- export import from
-    cyan    = "#ffff55", -- component props
-    blue    = "#FF55FF", -- strings
-    magenta = "#FF55FF", -- numbers, booleans
+    red     = "#C0392B", -- strong red for operators/diff deletions
+    yellow  = "#B88700", -- functions, types, etc.
+    green   = "#2E8B57", -- import/export
+    cyan    = "#008B8B", -- props
+    blue    = "#2C6DD4", -- strings
+    magenta = "#A03CA8", -- numbers/booleans
   },
   c = {
-    red     = "#FFFFFF", -- ; & , | . ...
-    yellow  = "#DDDD00", -- type, const, return keywords
-    green   = "#55FF55", -- React, gitsigns
-    cyan    = "#77DDDD", -- Custom ts types
-    blue    = "#77AAFF", -- ????
-    magenta = "#FF77FF", -- null, undefined
+    red     = "#D14D3C", -- punctuation/operators
+    yellow  = "#A27C00", -- keywords
+    green   = "#3FA75B", -- identifiers
+    cyan    = "#2890A0", -- custom types
+    blue    = "#3C82CC", -- other symbols
+    magenta = "#C65FCC", -- special values
   },
   d = {
-    red     = "#005577", -- ???
-    yellow  = "#a9aaaa", -- delimiters ({}()[])
-    green   = "#006688", -- ???
-    cyan    = "#007799", -- ???
-    blue    = "#0055AA", -- ???
-    magenta = "#004488", -- ???
+    red     = "#F2C4C0", -- background of deleted diffs (light red)
+    yellow  = "#8E8E8A", -- delimiters
+    green   = "#C8E6C9", -- background of added diffs (soft but clear)
+    cyan    = "#4DD0E1", -- accent cyan
+    blue    = "#64B5F6", -- accent blue
+    magenta = "#E1BEE7", -- accent magenta
   },
 }
 
+-- this has the right comments
 -- stylua: ignore
 local white = {
   a = {
@@ -91,19 +92,19 @@ local white = {
   c = {
     red     = "#5A5A58", -- ; & , | . ...
     yellow  = "#8B6F00", -- type, const, return keywords
-    green   = "#3A9950", -- React, gitsigns
+    green   = "#3A9950", -- React, gitsigns, fg of diffs
     cyan    = "#2890A0", -- Custom ts types
     blue    = "#3A7AC8", -- ????
     magenta = "#B84FC0", -- null, undefined
   },
   d = {
-    red     = "#8A6860", -- ???
+    red     = "#8A6860", -- background of deleted diffs
     yellow  = "#6A6A68", -- delimiters ({}()[])
-    green   = "#4AAA62", -- ???
+    green   = "#4AAA62", -- background of added diffs
     cyan    = "#38A5B5", -- ???
     blue    = "#4A8FD8", -- ???
     magenta = "#C860C8", -- ???
   },
 }
 
-return white
+return whitegpt
