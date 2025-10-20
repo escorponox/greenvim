@@ -1,5 +1,5 @@
 -- stylua: ignore
-return {
+local blue =  {
   a = {
     bg      = "#0000CC", -- Classic NC blue/cyan background
     float   = "#0066AA", -- Slightly darker blue for floating elements
@@ -33,3 +33,77 @@ return {
     magenta = "#004488", -- Dark blue-purple background variation
   },
 }
+
+-- stylua: ignore
+local savecomments = {
+  a = {
+    bg      = "#0000CC", -- background
+    float   = "#0066AA", -- float
+    sel     = "#0088AA", -- selection
+    ui      = "#55FFFF", -- borders, UI elements
+    com     = "#00FFFF", -- comments
+    fg      = "#AAffff", -- vars, object keys
+  },
+  b = {
+    red     = "#a9aaaa", -- = ...  => <>
+    yellow  = "#FFFF00", -- functions, ts types basic, functions, clases, react components, ?
+    green   = "#55FF55", -- export import from
+    cyan    = "#ffff55", -- component props
+    blue    = "#FF55FF", -- strings
+    magenta = "#FF55FF", -- numbers, booleans
+  },
+  c = {
+    red     = "#FFFFFF", -- ; & , | . ...
+    yellow  = "#DDDD00", -- type, const, return keywords
+    green   = "#55FF55", -- React, gitsigns
+    cyan    = "#77DDDD", -- Custom ts types
+    blue    = "#77AAFF", -- ????
+    magenta = "#FF77FF", -- null, undefined
+  },
+  d = {
+    red     = "#005577", -- ???
+    yellow  = "#a9aaaa", -- delimiters ({}()[])
+    green   = "#006688", -- ???
+    cyan    = "#007799", -- ???
+    blue    = "#0055AA", -- ???
+    magenta = "#004488", -- ???
+  },
+}
+
+-- stylua: ignore
+local white = {
+  a = {
+    bg      = "#F5F5F0", -- background
+    float   = "#ECECE7", -- float
+    sel     = "#E0E0D8", -- selection
+    ui      = "#C0C0B8", -- borders, UI elements
+    com     = "#7A7A72", -- comments
+    fg      = "#2A2A28", -- vars, object keys
+  },
+  b = {
+    red     = "#4A4A48", -- = ...  => <>
+    yellow  = "#A67F00", -- functions, ts types basic, functions, clases, react components, ?
+    green   = "#2D7A3E", -- export import from
+    cyan    = "#1E7A8A", -- component props
+    blue    = "#2563A8", -- strings
+    magenta = "#A03CA8", -- numbers, booleans
+  },
+  c = {
+    red     = "#5A5A58", -- ; & , | . ...
+    yellow  = "#8B6F00", -- type, const, return keywords
+    green   = "#3A9950", -- React, gitsigns
+    cyan    = "#2890A0", -- Custom ts types
+    blue    = "#3A7AC8", -- ????
+    magenta = "#B84FC0", -- null, undefined
+  },
+  d = {
+    red     = "#8A6860", -- ???
+    yellow  = "#6A6A68", -- delimiters ({}()[])
+    green   = "#4AAA62", -- ???
+    cyan    = "#38A5B5", -- ???
+    blue    = "#4A8FD8", -- ???
+    magenta = "#C860C8", -- ???
+  },
+}
+
+return white
