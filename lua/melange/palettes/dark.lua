@@ -1,11 +1,11 @@
 -- stylua: ignore
-return {
+local green = {
   a = {
-    bg      = "#0A1008", -- Very dark green-black
-    float   = "#102013", -- Slightly lighter dark green
-    sel     = "#1A3018", -- Dark green selection
-    ui      = "#6ccba0", -- Muted green UI elements
-    com     = "#5A9662", -- Medium green for comments
+    bg      = "#0A1008", -- background
+    float   = "#102013", -- float
+    sel     = "#1A3018", -- selection
+    ui      = "#6ccba0", -- borders, UI elements
+    com     = "#5A9662", -- comments
     fg      = "#00ff00", -- vars, object keys
   },
   b = {
@@ -19,51 +19,55 @@ return {
   c = {
     red     = "#0FD75F", -- ; & , | . ...
     yellow  = "#25A035", -- type, const, return keywords
-    green   = "#78FF78", -- React, gitsigns
+    green   = "#78FF78", -- React, gitsigns, fg of diffs
     cyan    = "#54B378", -- Custom ts types
     blue    = "#3D9A57", -- ????
     magenta = "#3aa5ff", -- null, undefined
   },
   d = {
-    red     = "#0B3315", -- ???
-    yellow  = "#2AC038", -- Brighter green for delimiters ({}()[])
-    green   = "#041A0C", -- Nearly black green
-    cyan    = "#0D2D1A", -- Very dark green-cyan
-    blue    = "#0F2316", -- Very dark blue-green
-    magenta = "#1E3923", -- Dark emerald green
+    red     = "#0B3315", -- background of deleted diffs
+    yellow  = "#2AC038", -- delimiters ({}()[])
+    green   = "#041A0C", -- background of added diffs
+    cyan    = "#0D2D1A", -- ???
+    blue    = "#0F2316", -- ???
+    magenta = "#1E3923", -- ???
   },
 }
 
--- Cobalt Neon palette
--- Ansi 0
--- #141F30
--- Ansi 1
--- #FF2322
--- Ansi 2
--- #3AA5FF
--- Ansi 3
--- #E8E75C
--- Ansi 4
--- #8FF6FF
--- Ansi 5
--- #781A9F
--- nsi 6
--- #8FF6FF
--- Ansi 7
--- #BA4571
--- Ansi 8
--- #FFF689
--- Ansi 9
--- #D42F2F
--- Ansi 10
--- #8FF6FF
--- Ansi 11
--- #E9F06D
--- Ansi 12
--- #3DAADE
--- Ansi 13
--- #823030
--- Ansi 14
--- #6CCBA0
--- Ansi 15
--- #8FF6FF
+-- stylua: ignore
+local whitegpt = {
+  a = {
+    bg      = "#1E1E1B", -- background
+    float   = "#2A2A26", -- float
+    sel     = "#33332E", -- selection
+    ui      = "#4A4A44", -- borders, UI elements
+    com     = "#7A7A70", -- comments
+    fg      = "#E8E8E0", -- vars, object keys
+  },
+  b = {
+    red     = "#E57373", -- = ...  => <>
+    yellow  = "#FFD54F", -- functions, ts types basic, functions, clases, react components, ?
+    green   = "#81C784", -- export import from
+    cyan    = "#4DD0E1", -- component props
+    blue    = "#64B5F6", -- strings
+    magenta = "#CE93D8", -- numbers, booleans
+  },
+  c = {
+    red     = "#EF5350", -- ; & , | . ...
+    yellow  = "#FFCA28", -- type, const, return keywords
+    green   = "#66BB6A", -- React, gitsigns, fg of diffs
+    cyan    = "#26C6DA", -- Custom ts types
+    blue    = "#42A5F5", -- ????
+    magenta = "#BA68C8", -- null, undefined
+  },
+  d = {
+    red     = "#4B1C1C", -- background of deleted diffs
+    yellow  = "#5A5A50", -- delimiters ({}()[])
+    green   = "#1E3A24", -- background of added diffs
+    cyan    = "#004D40", -- ???
+    blue    = "#0D47A1", -- ???
+    magenta = "#4A148C", -- ???
+  },
+}
+
+return whitegpt

@@ -1,72 +1,72 @@
 -- stylua: ignore
 local blue =  {
   a = {
-    bg      = "#0000CC", -- Classic NC blue/cyan background
-    float   = "#0066AA", -- Slightly darker blue for floating elements
-    sel     = "#0088AA", -- Dark blue selection background (like NC selected items)
-    ui      = "#55FFFF", -- Bright cyan for UI elements (like NC borders)
-    com     = "#00FFFF", -- Light cyan for comments
-    fg      = "#AAffff", -- Bright yellow for text (like NC file names)
+    bg      = "#0000CC", -- background
+    float   = "#0066AA", -- float
+    sel     = "#0088AA", -- selection
+    ui      = "#55FFFF", -- borders, UI elements
+    com     = "#00FFFF", -- comments
+    fg      = "#AAffff", -- vars, object keys
   },
   b = {
-    red     = "#a9aaaa", -- White for operators (=, =>, <>)
-    yellow  = "#FFFF00", -- Pure yellow for functions, types, etc.
-    green   = "#55FF55", -- Bright green for keywords
-    cyan    = "#ffff55", -- Bright cyan for component props
-    blue    = "#FF55FF", -- Light blue for strings
-    magenta = "#FF55FF", -- Pink for numbers, booleans
+    red     = "#a9aaaa", -- = ...  => <>
+    yellow  = "#FFFF00", -- functions, ts types basic, functions, clases, react components, ?
+    green   = "#55FF55", -- export import from
+    cyan    = "#ffff55", -- component props
+    blue    = "#FF55FF", -- strings
+    magenta = "#FF55FF", -- numbers, booleans
   },
   c = {
-    red     = "#FFFFFF", -- White for punctuation
-    yellow  = "#DDDD00", -- Yellow variant for keywords
-    green   = "#55FF55", -- Green for React, gitsigns
-    cyan    = "#77DDDD", -- Medium cyan for custom types
-    blue    = "#77AAFF", -- Medium blue accent
-    magenta = "#FF77FF", -- Light magenta for null, undefined
+    red     = "#FFFFFF", -- ; & , | . ...
+    yellow  = "#DDDD00", -- type, const, return keywords
+    green   = "#55FF55", -- React, gitsigns, fg of diffs
+    cyan    = "#77DDDD", -- Custom ts types
+    blue    = "#77AAFF", -- ????
+    magenta = "#FF77FF", -- null, undefined
   },
   d = {
-    red     = "#005577", -- Darker blue-cyan variation
-    yellow  = "#a9aaaa", -- White for delimiters
-    green   = "#006688", -- Dark cyan background variation
-    cyan    = "#007799", -- Dark teal background variation
-    blue    = "#0055AA", -- Dark blue background variation
-    magenta = "#004488", -- Dark blue-purple background variation
+    red     = "#005577", -- background of deleted diffs
+    yellow  = "#a9aaaa", -- delimiters ({}()[])
+    green   = "#006688", -- background of added diffs
+    cyan    = "#007799", -- ???
+    blue    = "#0055AA", -- ???
+    magenta = "#004488", -- ???
   },
 }
 
 -- stylua: ignore
 local whitegpt = {
   a = {
-    bg      = "#F7F7F2", -- background (slightly brighter)
+    bg      = "#F7F7F2", -- background
     float   = "#EDEDE8", -- float
-    sel     = "#DADAD2", -- selection (a bit darker for clarity)
-    ui      = "#BEBEB6", -- borders/UI
-    com     = "#7C7C74", -- comments (neutral gray)
-    fg      = "#232321", -- text/fg
+    sel     = "#DADAD2", -- selection
+    ui      = "#BEBEB6", -- borders, UI elements
+    com     = "#7C7C74", -- comments
+    fg      = "#232321", -- vars, object keys
   },
   b = {
-    red     = "#C0392B", -- strong red for operators/diff deletions
-    yellow  = "#B88700", -- functions, types, etc.
-    green   = "#2E8B57", -- import/export
-    cyan    = "#008B8B", -- props
+    red     = "#C0392B", -- = ...  => <>
+    yellow  = "#B88700", -- functions, ts types basic, functions, clases, react components, ?
+    green   = "#2E8B57", -- export import from
+    cyan    = "#008B8B", -- component props
     blue    = "#2C6DD4", -- strings
-    magenta = "#A03CA8", -- numbers/booleans
+    magenta = "#A03CA8", -- numbers, booleans
   },
   c = {
-    red     = "#D14D3C", -- punctuation/operators
-    yellow  = "#A27C00", -- keywords
-    green   = "#3FA75B", -- identifiers
-    cyan    = "#2890A0", -- custom types
-    blue    = "#3C82CC", -- other symbols
-    magenta = "#C65FCC", -- special values
+    red     = "#D14D3C", -- ; & , | . ...
+    yellow  = "#A27C00", -- type, const, return keywords
+    green   = "#3FA75B", -- React, gitsigns, fg of diffs
+    cyan    = "#2890A0", -- Custom ts types
+    blue    = "#3C82CC", -- ????
+    magenta = "#C65FCC", -- null, undefined
   },
   d = {
-    red     = "#F2C4C0", -- background of deleted diffs (light red)
-    yellow  = "#8E8E8A", -- delimiters
-    green   = "#C8E6C9", -- background of added diffs (soft but clear)
-    cyan    = "#4DD0E1", -- accent cyan
-    blue    = "#64B5F6", -- accent blue
-    magenta = "#E1BEE7", -- accent magenta
+    red     = "#F2C4C0", -- background of deleted diffs
+    yellow  = "#8E8E8A", -- delimiters ({}()[])
+    green   = "#C8E6C9", -- background of added diffs
+    cyan    = "#4DD0E1", -- ???
+    blue    = "#64B5F6", -- ???
+    magenta = "#E1BEE7", -- ???
   },
 }
 
