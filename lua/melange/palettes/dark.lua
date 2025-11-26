@@ -66,7 +66,7 @@ local whitegpt = {
     green   = "#1E3A24", -- background of added diffs
     cyan    = "#004D40", -- ???
     blue    = "#0D47A1", -- ???
-    magenta = "#4A148C", -- ???
+    magenta = "#4A148C", -- diffs untouched background
   },
 }
 

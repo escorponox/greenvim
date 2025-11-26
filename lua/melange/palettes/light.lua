@@ -66,11 +66,10 @@ local whitegpt = {
     green   = "#C8E6C9", -- background of added diffs
     cyan    = "#4DD0E1", -- ???
     blue    = "#64B5F6", -- ???
-    magenta = "#E1BEE7", -- ???
+    magenta = "#F4E8F6", -- diffs untouched background
   },
 }
 
--- this has the right comments
 -- stylua: ignore
 local white = {
   a = {
